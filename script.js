@@ -8,7 +8,7 @@ function makeid(l) {
             return result;
         }
 
-        const l = prompt("Enter a number.");
+        const l = prompt("");
         if (isNaN(l) || l <= 0 || l > 1000) {
             alert("Please enter a valid number between 1 and 1000.");
         } else {
